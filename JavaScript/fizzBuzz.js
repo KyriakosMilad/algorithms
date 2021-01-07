@@ -3,4 +3,12 @@
  * @param n: integer
  * @return void
  */
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+	for (let i = 1; i <= n; i++) {
+		let fizz = i % 3 == 0,
+			buzz = i % 5 == 0;
+		console.log(fizz && buzz ? 'FizzBuzz' : fizz ? 'Fizz' : buzz ? 'Buzz' : i);
+	}
+}
+
+fizzBuzz(15);
