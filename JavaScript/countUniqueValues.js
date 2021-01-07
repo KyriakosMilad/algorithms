@@ -16,4 +16,20 @@ function countUniqueValues(array) {
 	return uniqueValues.length;
 }
 
-console.log(countUniqueValues('a7a'));
+console.log(countUniqueValues(['a', '7', 'a']));
+
+// another solution
+function countUniqueValues2(array) {
+	let i = 0;
+
+	for (let j = 1; j < array.length; j++) {
+		if (array[i] !== array[j]) {
+			i++;
+			array[i] = array[j];
+		}
+	}
+
+	return i + 1;
+}
+
+console.log(countUniqueValues2([1, 2, 3]));
