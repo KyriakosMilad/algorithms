@@ -16,8 +16,8 @@ function anagram(firstWord, secondWord) {
 	}
 
 	for (let val in frequencyCounter1) {
-		if (frequencyCounter1[val] !== frequencyCounter2[val]) return false;
 		if (!frequencyCounter1[val] || !frequencyCounter2[val]) return false;
+		if (frequencyCounter1[val] !== frequencyCounter2[val]) return false;
 	}
 
 	return true;
