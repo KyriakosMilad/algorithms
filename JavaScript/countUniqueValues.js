@@ -1,6 +1,6 @@
 /**
  * @desc count the unique values in the array
- * @param n: array
+ * @param array: array
  * @return integer
  */
 function countUniqueValues(array) {
