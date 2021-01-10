@@ -1,6 +1,11 @@
 # challenge from hackerrank https://www.hackerrank.com/challenges/breaking-best-and-worst-records
 
-scores = input('Enter scores each score separated with ",": ').split(', ')
+def int_list(item):
+    return int(item)
+
+
+scores = map(int_list, input('Enter scores each score separated with ",": ').split(', '))
+scores = list(scores)
 
 betterScore = 0
 worseScore = 0
