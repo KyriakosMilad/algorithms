@@ -20,7 +20,6 @@ for val in scores:
         worseScore += 1
         worstScore = val
 
-    print(betterScore, worseScore, bestScore, worstScore)
     lastScore = val
 
 print(betterScore, worseScore)
