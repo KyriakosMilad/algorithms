@@ -1,4 +1,4 @@
-# challenge from hackerrank https://www.hackerrank.com/challenges/ctci-making-anagrams
+# challenge from hackerrank https://www.hackerrank.com/challenges/cats-and-a-mouse
 
 a = int(input('first cat position: '))
 b = int(input('second cat position: '))
