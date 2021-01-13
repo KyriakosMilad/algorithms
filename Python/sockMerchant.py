@@ -16,13 +16,11 @@ for i in socks:
     else:
         colors_pairs[i] = 1
 
-print(colors_pairs)
 
 for i in colors_pairs:
     if colors_pairs[i] % 2 == 0:
         total_pairs += colors_pairs[i] / 2
     else:
         total_pairs += (colors_pairs[i] - 1) / 2
-    print(i, total_pairs)
-print(int(total_pairs))
 
+print(int(total_pairs))
