@@ -14,3 +14,6 @@ for i in range(1, m):
         chair += 1
 
 print(chair)
+
+# better solution
+print(((s + m - 2) % n) + 1)
