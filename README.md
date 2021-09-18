@@ -1,1 +1,1 @@
-# Kyri-Algorithms
+# algorithms
